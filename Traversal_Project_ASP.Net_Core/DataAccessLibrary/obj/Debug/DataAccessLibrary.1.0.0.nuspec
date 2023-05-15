@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>DataAccessLibrary</id>
+    <version>1.0.0</version>
+    <authors>DataAccessLibrary</authors>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework="net5.0">
+        <dependency id="Microsoft.EntityFrameworkCore" version="5.0.12" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.EntityFrameworkCore.SqlServer" version="5.0.12" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\Ertugrul\Documents\GitHub\Traversal_Project_ASP.Net_Core\Traversal_Project_ASP.Net_Core\DataAccessLibrary\bin\Debug\net5.0\DataAccessLibrary.runtimeconfig.json" target="lib\net5.0\DataAccessLibrary.runtimeconfig.json" />
+    <file src="C:\Users\Ertugrul\Documents\GitHub\Traversal_Project_ASP.Net_Core\Traversal_Project_ASP.Net_Core\DataAccessLibrary\bin\Debug\net5.0\DataAccessLibrary.dll" target="lib\net5.0\DataAccessLibrary.dll" />
+  </files>
+</package>

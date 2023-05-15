@@ -1,17 +1,180 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Ertugrul\\source\\repos\\Traversal_Project_ASP.Net_Core\\Traversal_Project_ASP.Net_Core\\Traversal_Project_ASP.Net_Core.csproj": {}
+    "C:\\Users\\Ertugrul\\Documents\\GitHub\\Traversal_Project_ASP.Net_Core\\Traversal_Project_ASP.Net_Core\\Traversal_Project_ASP.Net_Core\\Traversal_Project_ASP.Net_Core.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Ertugrul\\source\\repos\\Traversal_Project_ASP.Net_Core\\Traversal_Project_ASP.Net_Core\\Traversal_Project_ASP.Net_Core.csproj": {
+    "C:\\Users\\Ertugrul\\Documents\\GitHub\\Traversal_Project_ASP.Net_Core\\Traversal_Project_ASP.Net_Core\\BusinessLayer\\BusinessLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Ertugrul\\source\\repos\\Traversal_Project_ASP.Net_Core\\Traversal_Project_ASP.Net_Core\\Traversal_Project_ASP.Net_Core.csproj",
-        "projectName": "Traversal_Project_ASP.Net_Core",
-        "projectPath": "C:\\Users\\Ertugrul\\source\\repos\\Traversal_Project_ASP.Net_Core\\Traversal_Project_ASP.Net_Core\\Traversal_Project_ASP.Net_Core.csproj",
+        "projectUniqueName": "C:\\Users\\Ertugrul\\Documents\\GitHub\\Traversal_Project_ASP.Net_Core\\Traversal_Project_ASP.Net_Core\\BusinessLayer\\BusinessLayer.csproj",
+        "projectName": "BusinessLayer",
+        "projectPath": "C:\\Users\\Ertugrul\\Documents\\GitHub\\Traversal_Project_ASP.Net_Core\\Traversal_Project_ASP.Net_Core\\BusinessLayer\\BusinessLayer.csproj",
         "packagesPath": "C:\\Users\\Ertugrul\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Ertugrul\\source\\repos\\Traversal_Project_ASP.Net_Core\\Traversal_Project_ASP.Net_Core\\obj\\",
+        "outputPath": "C:\\Users\\Ertugrul\\Documents\\GitHub\\Traversal_Project_ASP.Net_Core\\Traversal_Project_ASP.Net_Core\\BusinessLayer\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Ertugrul\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\Ertugrul\\Documents\\GitHub\\Traversal_Project_ASP.Net_Core\\Traversal_Project_ASP.Net_Core\\DataAccessLibrary\\DataAccessLibrary.csproj": {
+                "projectPath": "C:\\Users\\Ertugrul\\Documents\\GitHub\\Traversal_Project_ASP.Net_Core\\Traversal_Project_ASP.Net_Core\\DataAccessLibrary\\DataAccessLibrary.csproj"
+              },
+              "C:\\Users\\Ertugrul\\Documents\\GitHub\\Traversal_Project_ASP.Net_Core\\Traversal_Project_ASP.Net_Core\\EntityLayer\\EntityLayer.csproj": {
+                "projectPath": "C:\\Users\\Ertugrul\\Documents\\GitHub\\Traversal_Project_ASP.Net_Core\\Traversal_Project_ASP.Net_Core\\EntityLayer\\EntityLayer.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.12, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.12, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.12, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.12, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.416\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Ertugrul\\Documents\\GitHub\\Traversal_Project_ASP.Net_Core\\Traversal_Project_ASP.Net_Core\\DataAccessLibrary\\DataAccessLibrary.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Ertugrul\\Documents\\GitHub\\Traversal_Project_ASP.Net_Core\\Traversal_Project_ASP.Net_Core\\DataAccessLibrary\\DataAccessLibrary.csproj",
+        "projectName": "DataAccessLibrary",
+        "projectPath": "C:\\Users\\Ertugrul\\Documents\\GitHub\\Traversal_Project_ASP.Net_Core\\Traversal_Project_ASP.Net_Core\\DataAccessLibrary\\DataAccessLibrary.csproj",
+        "packagesPath": "C:\\Users\\Ertugrul\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Ertugrul\\Documents\\GitHub\\Traversal_Project_ASP.Net_Core\\Traversal_Project_ASP.Net_Core\\DataAccessLibrary\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Ertugrul\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\Ertugrul\\Documents\\GitHub\\Traversal_Project_ASP.Net_Core\\Traversal_Project_ASP.Net_Core\\EntityLayer\\EntityLayer.csproj": {
+                "projectPath": "C:\\Users\\Ertugrul\\Documents\\GitHub\\Traversal_Project_ASP.Net_Core\\Traversal_Project_ASP.Net_Core\\EntityLayer\\EntityLayer.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.12, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.12, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.12, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.12, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.416\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Ertugrul\\Documents\\GitHub\\Traversal_Project_ASP.Net_Core\\Traversal_Project_ASP.Net_Core\\EntityLayer\\EntityLayer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Ertugrul\\Documents\\GitHub\\Traversal_Project_ASP.Net_Core\\Traversal_Project_ASP.Net_Core\\EntityLayer\\EntityLayer.csproj",
+        "projectName": "EntityLayer",
+        "projectPath": "C:\\Users\\Ertugrul\\Documents\\GitHub\\Traversal_Project_ASP.Net_Core\\Traversal_Project_ASP.Net_Core\\EntityLayer\\EntityLayer.csproj",
+        "packagesPath": "C:\\Users\\Ertugrul\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Ertugrul\\Documents\\GitHub\\Traversal_Project_ASP.Net_Core\\Traversal_Project_ASP.Net_Core\\EntityLayer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Ertugrul\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,6 +202,114 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.12, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.12, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.12, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.12, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.416\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Ertugrul\\Documents\\GitHub\\Traversal_Project_ASP.Net_Core\\Traversal_Project_ASP.Net_Core\\Traversal_Project_ASP.Net_Core\\Traversal_Project_ASP.Net_Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Ertugrul\\Documents\\GitHub\\Traversal_Project_ASP.Net_Core\\Traversal_Project_ASP.Net_Core\\Traversal_Project_ASP.Net_Core\\Traversal_Project_ASP.Net_Core.csproj",
+        "projectName": "Traversal_Project_ASP.Net_Core",
+        "projectPath": "C:\\Users\\Ertugrul\\Documents\\GitHub\\Traversal_Project_ASP.Net_Core\\Traversal_Project_ASP.Net_Core\\Traversal_Project_ASP.Net_Core\\Traversal_Project_ASP.Net_Core.csproj",
+        "packagesPath": "C:\\Users\\Ertugrul\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Ertugrul\\Documents\\GitHub\\Traversal_Project_ASP.Net_Core\\Traversal_Project_ASP.Net_Core\\Traversal_Project_ASP.Net_Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Ertugrul\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\Ertugrul\\Documents\\GitHub\\Traversal_Project_ASP.Net_Core\\Traversal_Project_ASP.Net_Core\\BusinessLayer\\BusinessLayer.csproj": {
+                "projectPath": "C:\\Users\\Ertugrul\\Documents\\GitHub\\Traversal_Project_ASP.Net_Core\\Traversal_Project_ASP.Net_Core\\BusinessLayer\\BusinessLayer.csproj"
+              },
+              "C:\\Users\\Ertugrul\\Documents\\GitHub\\Traversal_Project_ASP.Net_Core\\Traversal_Project_ASP.Net_Core\\DataAccessLibrary\\DataAccessLibrary.csproj": {
+                "projectPath": "C:\\Users\\Ertugrul\\Documents\\GitHub\\Traversal_Project_ASP.Net_Core\\Traversal_Project_ASP.Net_Core\\DataAccessLibrary\\DataAccessLibrary.csproj"
+              },
+              "C:\\Users\\Ertugrul\\Documents\\GitHub\\Traversal_Project_ASP.Net_Core\\Traversal_Project_ASP.Net_Core\\EntityLayer\\EntityLayer.csproj": {
+                "projectPath": "C:\\Users\\Ertugrul\\Documents\\GitHub\\Traversal_Project_ASP.Net_Core\\Traversal_Project_ASP.Net_Core\\EntityLayer\\EntityLayer.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.12, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.12, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.12, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.12, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -57,7 +328,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.410\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.416\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -1,9 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "fQ4gMhpRLYMLWRp/yRO1Ib3veoSaxPtztC9PLzRbFUn02t+u64oHWKH22XAQbn44FD3LVLmJpekk7inH1G0tTQ==",
+  "dgSpecHash": "fS8Qt56TThNWJWqvyIa2tfkDYiTEj01pd6da7dz3AxCrhHrIp2t4RMlLiz2PjY4slHJ/BkslcA/p6GDVCWY77g==",
   "success": true,
   "projectFilePath": "C:\\Users\\Ertugrul\\Documents\\GitHub\\Traversal_Project_ASP.Net_Core\\Traversal_Project_ASP.Net_Core\\BusinessLayer\\BusinessLayer.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Ertugrul\\.nuget\\packages\\fluentvalidation\\11.5.2\\fluentvalidation.11.5.2.nupkg.sha512",
+    "C:\\Users\\Ertugrul\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.3.0\\fluentvalidation.aspnetcore.11.3.0.nupkg.sha512",
+    "C:\\Users\\Ertugrul\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.5.1\\fluentvalidation.dependencyinjectionextensions.11.5.1.nupkg.sha512",
     "C:\\Users\\Ertugrul\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Ertugrul\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\Ertugrul\\.nuget\\packages\\microsoft.data.sqlclient\\2.0.1\\microsoft.data.sqlclient.2.0.1.nupkg.sha512",

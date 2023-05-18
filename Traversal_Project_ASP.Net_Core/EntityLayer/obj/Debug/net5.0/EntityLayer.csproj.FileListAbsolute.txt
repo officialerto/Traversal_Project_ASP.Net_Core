@@ -12,3 +12,4 @@ C:\Users\Ertugrul\Documents\GitHub\Traversal_Project_ASP.Net_Core\Traversal_Proj
 C:\Users\Ertugrul\Documents\GitHub\Traversal_Project_ASP.Net_Core\Traversal_Project_ASP.Net_Core\EntityLayer\bin\Debug\net5.0\EntityLayer.runtimeconfig.json
 C:\Users\Ertugrul\Documents\GitHub\Traversal_Project_ASP.Net_Core\Traversal_Project_ASP.Net_Core\EntityLayer\bin\Debug\net5.0\EntityLayer.runtimeconfig.dev.json
 C:\Users\Ertugrul\Documents\GitHub\Traversal_Project_ASP.Net_Core\Traversal_Project_ASP.Net_Core\EntityLayer\obj\Debug\net5.0\EntityLayer.genruntimeconfig.cache
+C:\Users\Ertugrul\Documents\GitHub\Traversal_Project_ASP.Net_Core\Traversal_Project_ASP.Net_Core\EntityLayer\obj\Debug\net5.0\EntityLayer.csproj.AssemblyReference.cache

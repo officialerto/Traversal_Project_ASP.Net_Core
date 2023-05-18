@@ -26,8 +26,15 @@ using Traversal_Project_ASP.Net_Core.Models;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 3 "C:\Users\Ertugrul\Documents\GitHub\Traversal_Project_ASP.Net_Core\Traversal_Project_ASP.Net_Core\Traversal_Project_ASP.Net_Core\Views\_ViewImports.cshtml"
+using EntityLayer.Concrete;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"69a6ad034d666b11bac1b40d1ca19614a8be1b58", @"/Views/Shared/_UILayout.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"4eef8ddcd42b4877fdec9ce3e243eafca0909b12", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"77ce17daa13952068d2d461cbc6d2fa6057db22e", @"/Views/_ViewImports.cshtml")]
     public class Views_Shared__UILayout : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         #line hidden
@@ -71,7 +78,7 @@ Write(await Html.PartialAsync("~/Views/LayoutPartial/_HeaderPartial.cshtml"));
 #line hidden
 #nullable disable
             WriteLiteral("\r\n\r\n");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "69a6ad034d666b11bac1b40d1ca19614a8be1b584026", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "69a6ad034d666b11bac1b40d1ca19614a8be1b584289", async() => {
                 WriteLiteral("\r\n\r\n    ");
 #nullable restore
 #line 12 "C:\Users\Ertugrul\Documents\GitHub\Traversal_Project_ASP.Net_Core\Traversal_Project_ASP.Net_Core\Traversal_Project_ASP.Net_Core\Views\Shared\_UILayout.cshtml"

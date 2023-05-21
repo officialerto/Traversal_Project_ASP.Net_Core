@@ -6,7 +6,7 @@
 }
 
 <body>
-    <header id="site-header" class="fixed-top">
+    @*<header id="site-header" class="fixed-top">
         <div class="container">
             <nav class="navbar navbar-expand-lg stroke">
                 <h1>
@@ -72,7 +72,7 @@
                 </div>
             </nav>
         </div>
-    </header>
+    </header>*@
 
     <section class="w3l-about-breadcrumb text-left">
         <div class="breadcrumb-bg breadcrumb-bg-about py-sm-5 py-4">
@@ -95,7 +95,7 @@
 
                         <div class="col-lg-4 col-md-4 col-6">
                             <div class="column">
-                                <a href="blog-single.html"><img src="@item.Image" alt="" class="img-fluid"></a>
+                                <a href="/Destination/DestinationDetails/@item.DestinationID"><img src="@item.Image" alt="" class="img-fluid"></a>
                                 <div class="info">
                                     <h4><a href="blog-single.html">@item.City</a></h4>
                                     <p>@item.DayNight</p>
@@ -111,6 +111,5 @@
             </div>
         </div>
     </section>
-    <link rel="stylesheet" href="~/Traversal-Liberty/assets/css/style-liberty.css">
-    <script src="~/Traversal-Liberty/assets/js/bootstrap.min.js"></script>
+
 </body>
